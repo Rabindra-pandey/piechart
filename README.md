@@ -42,3 +42,7 @@ var myEle = document.getElementById("myCanvas");
 if(myEle){ 
 	generatePieGraph('myCanvas', obj);
 }
+
+Examples
+--------
+https://repository-images.githubusercontent.com/223873892/9fa26380-104c-11ea-840b-e35bd353b982
