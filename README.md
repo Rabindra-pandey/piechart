@@ -38,4 +38,7 @@ var obj = {
             
  NEED TO CALL FUNCTION
  ----------------------	
-generatePieGraph('myCanvas', obj);
+var myEle = document.getElementById("myCanvas");
+if(myEle){ 
+	generatePieGraph('myCanvas', obj);
+}
