@@ -1,14 +1,14 @@
 # Piechart
 Javascript pie chart with less than 5kb without any dependency like css and js library. We can generate 10 different pie chart such as stroke pie, doughnut pie etc. 
 
-For generate the pie chart, we need to pass a id of the canvas and the object in the "generatePieGraph" function just like below-
+For generate the pie chart, we need to pass 2 arguments such as id of the canvas and an object with key value pair in the "generatePieGraph()" just like below-
 
 HTML
 ----
 <canvas id="myCanvas" width="300" height="300"></canvas>
 
-OBJECT
--------
+JavaScript Object
+-----------------
 var obj = {
 	values: [15, 50, 20, 85, 30],
 	colors: ['#4CAF50', '#00BCD4', '#E91E63', '#FFC107', '#9E9E9E'],
