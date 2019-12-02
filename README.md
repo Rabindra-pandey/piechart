@@ -39,8 +39,8 @@ var obj = {
 	}
 };
 ```            
- NEED TO CALL FUNCTION
- ----------------------	
+To generate the pie chart
+-------------------------
 ```
 generatePieGraph('myCanvas', obj);
 ```
