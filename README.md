@@ -5,8 +5,9 @@ For generate the pie chart, we need to pass 2 arguments such as id of the canvas
 
 HTML
 ----
+```
 <canvas id="myCanvas" width="300" height="300"></canvas>
-
+```
 JavaScript Object
 -----------------
 ```
@@ -41,7 +42,7 @@ var obj = {
  NEED TO CALL FUNCTION
  ----------------------	
 ```
-generatePieGraph(obj);
+generatePieGraph('myCanvas', obj);
 ```
 
 Examples
