@@ -9,7 +9,9 @@ HTML
 
 JavaScript Object
 -----------------
+```
 var obj = {
+	pieId: 'myPieCanvas',
 	values: [15, 50, 20, 85, 30],
 	colors: ['#4CAF50', '#00BCD4', '#E91E63', '#FFC107', '#9E9E9E'],
 	animation: true, // Takes boolean value & default behavious is false
@@ -35,13 +37,12 @@ var obj = {
 		fontWeight: 'bold' //  Define the font weight of the text & the default value is 'bold'
 	}
 };
-            
+```            
  NEED TO CALL FUNCTION
  ----------------------	
-var myEle = document.getElementById("myCanvas");
-if(myEle){ 
-	generatePieGraph('myCanvas', obj);
-}
+```
+generatePieGraph(obj);
+```
 
 Examples
 --------
